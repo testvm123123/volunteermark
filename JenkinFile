@@ -1,0 +1,23 @@
+pipelen
+{
+agent any
+stages {
+stage('Build')
+steps{
+echo "Build successfully"
+}
+stage('Deploy')
+steps{
+echo "Deployed successfully"
+}
+stage('Test')
+steps{
+echo "Tested successfully"
+}
+stage('Release')
+steps{
+echo "Released successfully"
+}
+}
+}
+}
